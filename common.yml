@@ -122,12 +122,6 @@ components:
         image:
           $ref: "#/components/schemas/ImageBase64"
 
-    ImageTransactionData:
-      type: object
-      properties:
-        image:
-          $ref: './rt-images.yml#/components/schemas/ImagesFieldValue'
-
     ImageBase64:
       description: "Base64 encoded image"
       type: string
@@ -245,7 +239,7 @@ components:
               type: integer
               description: "The maximum number of results to be returned."
             threshold:
-              type: float
+              type: number
               description: "The similarity threshold."
             group_ids:
               type: array

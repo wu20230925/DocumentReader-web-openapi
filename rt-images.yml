@@ -87,3 +87,9 @@ components:
         rfidOrigin:
           description: "Only for images from RFID. Image location in RFID chip."
           $ref: "./common.yml#/components/schemas/RfidOrigin"
+
+    ImageTransactionData:
+      type: object
+      properties:
+        image:
+          $ref: '#/components/schemas/ImagesFieldValue'

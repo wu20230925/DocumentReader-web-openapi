@@ -29,7 +29,7 @@ components:
       type: object
       properties:
         bcAngle_DETECT:
-          type: float
+          type: number
         bcCodeResult:
           type: integer
         bcCountModule:
@@ -55,7 +55,7 @@ components:
       type: object
       properties:
         Angle:
-          type: float
+          type: number
         bcColumn:
           type: integer
         bcErrorLevel:
@@ -63,9 +63,9 @@ components:
         bcRow:
           type: integer
         minX:
-          type: float
+          type: number
         minY:
-          type: float
+          type: number
 
     bcROI_DETECT:
       type: object
